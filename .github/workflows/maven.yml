@@ -30,7 +30,7 @@ jobs:
           tags: latest
           registry: docker.io
           dockerfile: github-cicd-actions/Dockerfile
-          context: github-cicd-actions
+          directory: github-cicd-actions
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
